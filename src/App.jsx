@@ -1,11 +1,11 @@
 import ButtonGrtadient from './assets/svg/ButtonGradient'
 import './App.css'
-import Button from './components/Button'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Benefits from './components/Benefits'
 import Collaboration from './components/Collaboration'
 import Services from './components/Services'
+import Pricing from './components/Pricing'
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
 
       <ButtonGrtadient />
